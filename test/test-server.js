@@ -26,7 +26,8 @@ beforeEach(function() {
   });
 });
 
-describe.skip ('route which serves the view', function() {
+// describe.skip 
+('route which serves the view', function() {
 
   it ('should serve the layout.ejs page on /GET', function (done) {
     var request = chai.request(app);
@@ -42,7 +43,8 @@ describe.skip ('route which serves the view', function() {
   });
 });
 
-describe.skip ('interactions with the users', function () {
+// describe.skip 
+('interactions with the users', function () {
 
   it ('should retrieve an array of users on a /GET', function(done) {
     var request = chai.request(app);
@@ -176,7 +178,8 @@ describe.skip ('interactions with the users', function () {
   })
 });
 
-describe.skip ('interactions with the courses', function () {
+// describe.skip 
+('interactions with the courses', function () {
 
   it ('should get all course on a /GET', function (done) {
     var request = chai.request(app);
@@ -224,7 +227,8 @@ describe.skip ('interactions with the courses', function () {
   // });
 });
 
-describe.skip ('interactions with the modules', function () {
+// describe.skip 
+('interactions with the modules', function () {
 
   it ('should create a module on a /POST', function(done) {
     var request = chai.request(app);
@@ -251,6 +255,7 @@ describe.skip ('interactions with the modules', function () {
   });
 });
 
+// describe.skip 
 ('interactions with individual courses', function() {
 
   it ('should show all courses of a type on /GET', function(done) {
