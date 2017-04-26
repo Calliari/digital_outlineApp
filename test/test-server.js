@@ -27,7 +27,7 @@ beforeEach(function() {
 });
 
 // describe.skip 
-('route which serves the view', function() {
+it ('route which serves the view', function() {
 
   it ('should serve the layout.ejs page on /GET', function (done) {
     var request = chai.request(app);
@@ -44,7 +44,7 @@ beforeEach(function() {
 });
 
 // describe.skip 
-('interactions with the users', function () {
+it ('interactions with the users', function () {
 
   it ('should retrieve an array of users on a /GET', function(done) {
     var request = chai.request(app);
@@ -228,7 +228,7 @@ beforeEach(function() {
 });
 
 // describe.skip 
-('interactions with the modules', function () {
+it ('interactions with the modules', function () {
 
   it ('should create a module on a /POST', function(done) {
     var request = chai.request(app);
@@ -256,7 +256,7 @@ beforeEach(function() {
 });
 
 // describe.skip 
-('interactions with individual courses', function() {
+it ('interactions with individual courses', function() {
 
   it ('should show all courses of a type on /GET', function(done) {
     var request = chai.request(app);
