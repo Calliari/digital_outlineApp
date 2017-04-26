@@ -251,7 +251,7 @@ describe.skip ('interactions with the modules', function () {
   });
 });
 
-describe.skip ('interactions with individual courses', function() {
+('interactions with individual courses', function() {
 
   it ('should show all courses of a type on /GET', function(done) {
     var request = chai.request(app);
