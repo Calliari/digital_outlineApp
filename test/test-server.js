@@ -179,7 +179,7 @@ it ('interactions with the users', function () {
 });
 
 // describe.skip 
-('interactions with the courses', function () {
+it ('interactions with the courses', function () {
 
   it ('should get all course on a /GET', function (done) {
     var request = chai.request(app);
